@@ -1,0 +1,200 @@
+:root {
+  --color-primery: #917758;
+  --color-primery-light: #f5eee6;
+  --color-secondary: #3c2915;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {   
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/***********************HOME*************************/
+
+
+
+.home {
+  position: relative;
+  background-size: cover;
+  background-image: url(../projeto_barbeariaIMAGENS/bg-home.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  
+}
+
+.home .header {
+  padding: 30px 0;
+  padding-bottom: 0;
+}
+
+.home .header .nav {
+  display: flex;
+  justify-content: center;
+}
+
+.home .header .nav ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+.home .header .nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.home .header .nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.home .header .nav ul li a:hover {
+  border-bottom: 1px solid var(--color-primery);
+  color: var(--color-primery);
+} 
+
+.home .header .nav ul li .logo {
+  margin: 0 40px;
+}
+
+
+
+/********************* HOME - BANNER *************************/
+
+
+.home .banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 300px;
+  width: 860px;
+  margin-left: -430px;
+  margin-top: -150px;
+  color: white;
+  text-align: center;
+}
+
+.home .banner span {
+  display: block;
+}
+
+.home .banner .slogan1 {
+  color: var(--color-primery);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 60pt;
+  color: #917758;
+}
+
+.bigode {
+  margin-top: 30px;
+}
+
+
+/********************* APPOINTMENT *************************/
+
+
+
+.appointment {
+  padding: 100px 0;
+  background-color: var(--color-primery);
+  height: 100vh;
+  background-image: url(../projeto_barbeariaIMAGENS/chair-ic.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 300px;
+}
+
+.appointment h2 {
+  color: var(--color-primery-light);
+  font-weight: 400;   
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.appointment img {
+  margin: 0 auto;
+  display: block;
+}
+
+.appointment form {
+  margin-top: 80px;
+}
+.appointment .personal-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointment .input-wrapper {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.appointment .input-wrapper:last-of-type {
+  margin-right: 0;
+}
+
+.appointment label {
+  display: block;
+  color: var(--color-primery-light);
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.appointment .personal-data input,
+.appointment .personal-data select,
+.appointment textarea {
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.appointment textarea {
+  height: 100px;
+}
+
+
+.appointment button {
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 15px 40px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* ========= FOOTER ========= */
+
+.footer {
+  background-color: #191919;
+  text-align: center;
+  font-size: 12px;
+  padding: 40px;
+  color: var(--color-primery-light);
+ }

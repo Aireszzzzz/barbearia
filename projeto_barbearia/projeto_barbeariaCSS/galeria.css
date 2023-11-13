@@ -1,0 +1,163 @@
+:root {
+  --color-primery: #917758;
+  --color-primery-light: #f5eee6;
+  --color-secondary: #3c2915;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {   
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/***********************HOME*************************/
+
+
+
+.home {
+  position: relative;
+  background-size: cover;
+  background-image: url(../projeto_barbeariaIMAGENS/bg-home.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  
+}
+
+.home .header {
+  padding: 30px 0;
+  padding-bottom: 0;
+}
+
+.home .header .nav {
+  display: flex;
+  justify-content: center;
+}
+
+.home .header .nav ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+.home .header .nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.home .header .nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.home .header .nav ul li a:hover {
+  border-bottom: 1px solid var(--color-primery);
+  color: var(--color-primery);
+} 
+
+.home .header .nav ul li .logo {
+  margin: 0 40px;
+}
+
+
+
+/********************* HOME - BANNER *************************/
+
+
+.home .banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 300px;
+  width: 860px;
+  margin-left: -430px;
+  margin-top: -150px;
+  color: white;
+  text-align: center;
+}
+
+.home .banner span {
+  display: block;
+}
+
+.home .banner .slogan1 {
+  color: var(--color-primery);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 60pt;
+  color: #917758;
+}
+
+.bigode {
+  margin-top: 30px;
+}
+
+/********************* GALLERY *************************/
+
+
+.gallery {
+  padding: 100px 0;
+  background-color: var(--color-primery-light);
+}
+
+.gallery h2 {
+  color: var(--color-primery);
+  font-weight: 400;   
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.gallery img {
+  margin: 0 auto;
+  display: block;
+}
+
+.gallery .gallery-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 50px auto;
+  
+}
+
+.gallery .gallery-wrapper div {
+  border: 10px solid var(--color-primery);
+  margin: 6px;
+  width: 33%;
+}
+
+.gallery .gallery-wrapper div img {
+  width: 100%;
+
+}
+
+/* ========= FOOTER ========= */
+
+.footer {
+  background-color: #191919;
+  text-align: center;
+  font-size: 12px;
+  padding: 40px;
+  color: var(--color-primery-light);
+ }

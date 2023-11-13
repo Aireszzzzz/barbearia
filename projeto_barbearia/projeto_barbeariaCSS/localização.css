@@ -1,0 +1,179 @@
+:root {
+  --color-primery: #917758;
+  --color-primery-light: #f5eee6;
+  --color-secondary: #3c2915;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {   
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/***********************HOME*************************/
+
+
+
+.home {
+  position: relative;
+  background-size: cover;
+  background-image: url(../projeto_barbeariaIMAGENS/bg-home.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  
+}
+
+.home .header {
+  padding: 30px 0;
+  padding-bottom: 0;
+}
+
+.home .header .nav {
+  display: flex;
+  justify-content: center;
+}
+
+.home .header .nav ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+.home .header .nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.home .header .nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.home .header .nav ul li a:hover {
+  border-bottom: 1px solid var(--color-primery);
+  color: var(--color-primery);
+} 
+
+.home .header .nav ul li .logo {
+  margin: 0 40px;
+}
+
+
+
+/********************* HOME - BANNER *************************/
+
+
+.home .banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 300px;
+  width: 860px;
+  margin-left: -430px;
+  margin-top: -150px;
+  color: white;
+  text-align: center;
+}
+
+.home .banner span {
+  display: block;
+}
+
+.home .banner .slogan1 {
+  color: var(--color-primery);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 60pt;
+  color: #917758;
+}
+
+.bigode {
+  margin-top: 30px;
+}
+
+/********************* LOCALIZATION *************************/
+
+
+.location {
+  padding: 100px 0;
+  background-image: url(../projeto_barbeariaIMAGENS/bg-location.jpg);
+  background-size: cover; /* preenche a area toda*/
+}
+
+.location .head {
+  display: flex;
+  justify-content: space-between;
+  background-color: #191919;
+  padding: 40px;
+  width: 100%;
+}
+
+.location .head .info {
+  display: flex;
+  align-items: center;
+}
+
+.location .head .info .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-primery);
+  border-radius: 100%;
+  padding: 10px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px
+}
+
+.location .head .info .text span {
+  display: block;
+  font-size: 13px;
+
+}
+
+.location .head .info .text span:first-child {
+  color: silver;
+}
+
+.location .head .info .text span:last-child
+{
+  color: white
+}
+
+.location .map {
+  width: 100%;
+}
+
+.location .map iframe{
+  width: 100%;
+}
+
+/* ========= FOOTER ========= */
+
+.footer {
+  background-color: #191919;
+  text-align: center;
+  font-size: 12px;
+  padding: 40px;
+  color: var(--color-primery-light);
+ }

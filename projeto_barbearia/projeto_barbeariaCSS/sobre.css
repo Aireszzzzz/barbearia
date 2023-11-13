@@ -1,0 +1,243 @@
+:root {
+  --color-primery: #917758;
+  --color-primery-light: #f5eee6;
+  --color-secondary: #3c2915;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {   
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/***********************HOME*************************/
+
+.home {
+  position: relative;
+  background-size: cover;
+  background-image: url(../projeto_barbeariaIMAGENS/bg-home.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  
+}
+
+.home .header {
+  padding: 30px 0;
+  padding-bottom: 0;
+}
+
+.home .header .nav {
+  display: flex;
+  justify-content: center;
+}
+
+.home .header .nav ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+.home .header .nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.home .header .nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.home .header .nav ul li a:hover {
+  border-bottom: 1px solid var(--color-primery);
+  color: var(--color-primery);
+} 
+
+.home .header .nav ul li .logo {
+  margin: 0 40px;
+}
+
+
+
+/********************* HOME - BANNER *************************/
+
+
+.home .banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 300px;
+  width: 860px;
+  margin-left: -430px;
+  margin-top: -150px;
+  color: white;
+  text-align: center;
+}
+
+.home .banner span {
+  display: block;
+}
+
+.home .banner .slogan1 {
+  color: var(--color-primery);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 60pt;
+  color: #917758;
+}
+
+.bigode {
+  margin-top: 30px;
+}
+
+.about {
+  background-color: var(--color-primery);
+  
+}
+
+.about .container {
+  display: flex;
+}
+
+.about .timing {
+  position: relative;
+  margin-top: -50px;
+  width: 33%;
+  padding: 20px;
+  background-image: url(../projeto_barbeariaIMAGENS/brush-big.jpg);
+}
+
+.about .timing .overlay {
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about .timing .overlay .icon-cut {
+  width: 50px;
+  
+}
+
+.about .timing .overlay h3 {
+  color: var(--color-primery);
+  text-transform: uppercase;
+  font-size: 24pt;
+  border-bottom: 1px solid var(--color-primery);
+  width: fit-content; /*o tramanho do h3 fivca do tamanho do conteudom precisa do margin auto*/
+  margin: 0 auto 30px auto;
+}
+
+.about .timing .text {
+  margin: 10px 0;
+}
+
+.about .timing .text:after {
+  content: '•';
+  display: block;
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.about .timing .text:last-of-type:after  { /* nbo utimo item aplica */
+  content: '|';
+}
+
+.about .timing .text {
+  color: gray;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.about .timing span {
+  color: gray;
+  font-size: 15px;
+  display: block;
+}
+.about .experience {
+  width: 66%;
+  color: white;
+  margin-left: 7%;
+  margin-top: 80px;
+}
+
+.about .experience h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.about .experience h2::after {
+  display: block;
+  content: '';
+  width: 100px;
+  height: 3px;
+  background-color:  #a38f78;
+  margin: 20px 0;
+}
+
+.about .experience .text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .experience .text p {
+  margin-bottom: 20px;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+
+/* ========= EQUIPE ======  */
+
+.titleEquipe {
+  font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #917758;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.326);
+    margin: 50px 50px;
+    text-align: center;
+}
+
+
+.imgEquipe {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  margin-left: 800px;
+}
+
+
+.textEquipe {
+  text-align: center;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+/* ========= FOOTER ========= */
+
+.footer {
+  background-color: #191919;
+  text-align: center;
+  font-size: 12px;
+  padding: 40px;
+  color: var(--color-primery-light);
+ } 
